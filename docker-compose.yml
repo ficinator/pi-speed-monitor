@@ -35,3 +35,10 @@ services:
       dockerfile: Dockerfile
     ports:
       - 8088:8088
+
+#  grafana:
+#    image: grafana/grafana-oss
+#    volumes:
+#      - ./grafana:/var/lib/grafana
+#    ports:
+#      - '3001:3000'
