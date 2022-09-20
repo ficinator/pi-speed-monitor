@@ -1,0 +1,268 @@
+dashboard_title: Speed Monitor
+description: null
+css: ''
+slug: null
+uuid: 06924d96-2fd8-4a5e-9d38-e54ffac1aeaf
+position:
+  CHART-TK3JVw6s5x:
+    children: []
+    id: CHART-TK3JVw6s5x
+    meta:
+      chartId: 1
+      height: 73
+      sliceName: Upload and Download over last week
+      uuid: dcf40309-cc28-4dc1-bcaa-66c5e8b31cfc
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-IEcQpp7YiW
+    - TAB-goTueI82V3
+    - ROW-tuA2WwYri
+    type: CHART
+  CHART-XXq4Le4pYc:
+    children: []
+    id: CHART-XXq4Le4pYc
+    meta:
+      chartId: 5
+      height: 50
+      sliceName: Average Speed by Hour
+      uuid: a5e10a9c-8318-4461-abc3-48e3c8903e19
+      width: 7
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-IEcQpp7YiW
+    - TAB-Wjx1-cX-B
+    - ROW-6ESFQ9zrN
+    type: CHART
+  CHART-oT-VEiaUoG:
+    children: []
+    id: CHART-oT-VEiaUoG
+    meta:
+      chartId: 2
+      height: 47
+      sliceName: Speed by Day of Week
+      uuid: cdb5e2d5-9643-4150-bc50-1e5ef6090602
+      width: 5
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-IEcQpp7YiW
+    - TAB-Wjx1-cX-B
+    - ROW-6ESFQ9zrN
+    type: CHART
+  CHART-pULOhcoT2m:
+    children: []
+    id: CHART-pULOhcoT2m
+    meta:
+      chartId: 6
+      height: 50
+      sliceName: Raw Download and Upload
+      uuid: 9131dad1-1ea7-4cde-a894-f95944e6bbe7
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-IEcQpp7YiW
+    - TAB-hC5vqkuOw
+    - ROW-yicPTTeLpj
+    type: CHART
+  CHART-vyS2eO3Nxf:
+    children: []
+    id: CHART-vyS2eO3Nxf
+    meta:
+      chartId: 7
+      height: 50
+      sliceName: Recent Measurements
+      uuid: c249ca9a-de23-4a21-993a-6df4bbc9338d
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-xyzKWVhd1E
+    type: CHART
+  CHART-wmeFFKuKyf:
+    children: []
+    id: CHART-wmeFFKuKyf
+    meta:
+      chartId: 4
+      height: 82
+      sliceName: Download Speed Histogram
+      uuid: c24f2f06-3fd1-4a07-b7b0-5213d6b79527
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-IEcQpp7YiW
+    - TAB-uoA6cvOMM
+    - ROW-OFFjHKWJ1
+    type: CHART
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children:
+    - HEADER-8B9iQiw_KU
+    - TABS-IEcQpp7YiW
+    - ROW-xyzKWVhd1E
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER-8B9iQiw_KU:
+    children: []
+    id: HEADER-8B9iQiw_KU
+    meta:
+      background: BACKGROUND_TRANSPARENT
+      headerSize: MEDIUM_HEADER
+      text: Internet Speed Monitoring
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: HEADER
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: Speed Monitor
+    type: HEADER
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  ROW-6ESFQ9zrN:
+    children:
+    - CHART-oT-VEiaUoG
+    - CHART-XXq4Le4pYc
+    id: ROW-6ESFQ9zrN
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-IEcQpp7YiW
+    - TAB-Wjx1-cX-B
+    type: ROW
+  ROW-OFFjHKWJ1:
+    children:
+    - CHART-wmeFFKuKyf
+    id: ROW-OFFjHKWJ1
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-IEcQpp7YiW
+    - TAB-uoA6cvOMM
+    type: ROW
+  ROW-tuA2WwYri:
+    children:
+    - CHART-TK3JVw6s5x
+    id: ROW-tuA2WwYri
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-IEcQpp7YiW
+    - TAB-goTueI82V3
+    type: ROW
+  ROW-xyzKWVhd1E:
+    children:
+    - CHART-vyS2eO3Nxf
+    id: ROW-xyzKWVhd1E
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-yicPTTeLpj:
+    children:
+    - CHART-pULOhcoT2m
+    id: ROW-yicPTTeLpj
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-IEcQpp7YiW
+    - TAB-hC5vqkuOw
+    type: ROW
+  TAB-Wjx1-cX-B:
+    children:
+    - ROW-6ESFQ9zrN
+    id: TAB-Wjx1-cX-B
+    meta:
+      text: Average by day and hour
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-IEcQpp7YiW
+    type: TAB
+  TAB-goTueI82V3:
+    children:
+    - ROW-tuA2WwYri
+    id: TAB-goTueI82V3
+    meta:
+      text: Rolling average
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-IEcQpp7YiW
+    type: TAB
+  TAB-hC5vqkuOw:
+    children:
+    - ROW-yicPTTeLpj
+    id: TAB-hC5vqkuOw
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Raw
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-IEcQpp7YiW
+    type: TAB
+  TAB-uoA6cvOMM:
+    children:
+    - ROW-OFFjHKWJ1
+    id: TAB-uoA6cvOMM
+    meta:
+      text: Histogram
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-IEcQpp7YiW
+    type: TAB
+  TABS-IEcQpp7YiW:
+    children:
+    - TAB-hC5vqkuOw
+    - TAB-goTueI82V3
+    - TAB-Wjx1-cX-B
+    - TAB-uoA6cvOMM
+    id: TABS-IEcQpp7YiW
+    meta: {}
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: TABS
+metadata:
+  timed_refresh_immune_slices: []
+  expanded_slices: {}
+  refresh_frequency: 0
+  default_filters: '{}'
+  color_scheme: googleCategory10c
+  label_colors:
+    AVG(download): '#3366cc'
+    AVG(upload): '#dc3912'
+    Average Download: '#ff9900'
+    Average Upload: '#109618'
+    download: '#990099'
+  remote_id: 1
+  import_time: 1663536486
+  show_native_filters: true
+  shared_label_colors:
+    AVG(download): '#3347cc'
+    AVG(upload): '#dc6112'
+  chart_configuration: {}
+version: 1.0.0

@@ -1,0 +1,82 @@
+slice_name: Upload and Download over last week
+viz_type: line
+params:
+  adhoc_filters: []
+  annotation_layers: []
+  bottom_margin: auto
+  color_scheme: bnbColors
+  comparison_type: values
+  datasource: 1__table
+  granularity_sqla: timestamp
+  groupby: []
+  label_colors:
+    download: '#1FA8C9'
+  left_margin: auto
+  line_interpolation: linear
+  metrics:
+  - aggregate: AVG
+    column:
+      column_name: download
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 3
+      is_dttm: false
+      python_date_format: null
+      type: DOUBLE PRECISION
+      verbose_name: null
+    expressionType: SIMPLE
+    hasCustomLabel: false
+    isNew: false
+    label: AVG(download)
+    optionName: metric_bwbhbda7bk_zzyofbyqzu
+    sqlExpression: null
+  - aggregate: AVG
+    column:
+      column_name: upload
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 5
+      is_dttm: false
+      python_date_format: null
+      type: DOUBLE PRECISION
+      verbose_name: null
+    expressionType: SIMPLE
+    hasCustomLabel: false
+    isNew: false
+    label: AVG(upload)
+    optionName: metric_vjfu5lxp9h_8f4z8mqrdza
+    sqlExpression: null
+  min_periods: ''
+  order_desc: true
+  rich_tooltip: true
+  rolling_periods: ''
+  rolling_type: None
+  row_limit: 10000
+  show_brush: auto
+  slice_id: 1
+  time_grain_sqla: PT1H
+  time_range: No filter
+  time_range_endpoints:
+  - inclusive
+  - exclusive
+  url_params: {}
+  viz_type: line
+  x_axis_format: smart_date
+  x_ticks_layout: auto
+  y_axis_bounds:
+  - null
+  - null
+  y_axis_format: SMART_NUMBER
+  remote_id: 1
+  datasource_name: speed_measurements
+  schema: public
+  database_name: speed_test
+  import_time: 1663536486
+cache_timeout: null
+uuid: dcf40309-cc28-4dc1-bcaa-66c5e8b31cfc
+version: 1.0.0
+dataset_uuid: ffc719c7-ebc5-4800-b2c0-fd2a6654430d

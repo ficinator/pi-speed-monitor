@@ -21,7 +21,7 @@ RUN superset fab create-admin \
     --email admin@admin.com \
     --password admin
 RUN superset init
-COPY dashboards /dashboards
+#COPY dashboards /dashboards
 ARG DB_STRING
 RUN superset set-database-uri -d speed_test -u $DB_STRING
 RUN superset import-dashboards -p /dashboards/20210219_083648.json

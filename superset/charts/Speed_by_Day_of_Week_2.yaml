@@ -1,0 +1,77 @@
+slice_name: Speed by Day of Week
+viz_type: dist_bar
+params:
+  adhoc_filters: []
+  bottom_margin: auto
+  color_scheme: googleCategory10c
+  columns: []
+  datasource: 1__table
+  granularity_sqla: timestamp
+  groupby:
+  - Day of Week
+  label_colors:
+    AVG(download): '#3366cc'
+    AVG(upload): '#dc3912'
+    Average Download: '#ff9900'
+    Average Upload: '#109618'
+    download: '#990099'
+  metrics:
+  - aggregate: AVG
+    column:
+      column_name: download
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 3
+      is_dttm: false
+      python_date_format: null
+      type: DOUBLE PRECISION
+      verbose_name: null
+    expressionType: SIMPLE
+    hasCustomLabel: false
+    isNew: false
+    label: AVG(download)
+    optionName: metric_b718a3gnl1l_8houyxwvo5
+    sqlExpression: null
+  - aggregate: AVG
+    column:
+      column_name: upload
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 5
+      is_dttm: false
+      python_date_format: null
+      type: DOUBLE PRECISION
+      verbose_name: null
+    expressionType: SIMPLE
+    hasCustomLabel: false
+    isNew: false
+    label: AVG(upload)
+    optionName: metric_xx9tcgqe5o_dsamajgxxh5
+    sqlExpression: null
+  order_bars: true
+  row_limit: 10000
+  show_bar_value: false
+  show_controls: false
+  show_legend: false
+  slice_id: 2
+  time_range: No filter
+  time_range_endpoints:
+  - inclusive
+  - exclusive
+  url_params: {}
+  viz_type: dist_bar
+  x_ticks_layout: auto
+  y_axis_format: SMART_NUMBER
+  remote_id: 2
+  datasource_name: speed_measurements
+  schema: public
+  database_name: speed_test
+  import_time: 1663536486
+cache_timeout: null
+uuid: cdb5e2d5-9643-4150-bc50-1e5ef6090602
+version: 1.0.0
+dataset_uuid: ffc719c7-ebc5-4800-b2c0-fd2a6654430d

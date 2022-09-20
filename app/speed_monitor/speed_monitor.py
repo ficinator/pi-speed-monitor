@@ -5,7 +5,10 @@ from typing import Dict, Union
 import speedtest
 
 def measure_speed():
-    s = speedtest.Speedtest(secure=True)
+    s = speedtest.Speedtest(
+        secure=True,
+        timeout=30,
+    )
     s.get_best_server()
     s.download()
     s.upload()
